@@ -1,7 +1,7 @@
-# To open a netCDF on Jupyter
+# To open a netCDF on Jupyter and see its dump
 Install Jupyter notebook from www.jupyter.org
 We can launch the notebook by entering "Jupyter Notebook" as a shell command
-Jupyter opens in the default web browser of the OS
+Jupyter opens in the default web browser of the OS.
 Jupyter notebook support around 40 programming languages. I have used ipython to code in it because it is a scripting language and is easy to understand  
 On the top right corner of the dashboard you will have an option to launch a new notbook and the dropdown shows the list of programming languages available on the OS. I have opened a new notebook with ipython as the programming language
 At the top of this notebook you can give a heading and the notebook can have markdowns written throughout out it to expplain the script of the code
@@ -19,6 +19,10 @@ We can see the shape of the nd array associated with a particular variable by ap
 Once we know the shape of a variable's array, we can access a particular value by mentioning its coordinates within its shape after the variable name. eg.print(ds.varaiable1[16][20][11][4].....)
 We can also check for the extreme values of the variables. eg. np.max(ds.variable1)
 We can calculate the statistics of the variable like mean, standard deviation etc.  eg. np.mean(ds.variable1) etc.
+
+
+We can also set parameters and check how many values of the variables are below, greater, in between etc. these paramenters. 
+To plot graphs we need to import the xarray.plot library in addition to to matplotlib.pyplot library. 
 
 
 
