@@ -16,6 +16,11 @@ ds.attrs gives the metadata for the dataset
 We can pick any variable and see its attributes by appending the variable name to the data structure. Say for eg. ds.variable1
 The valuse of the variable can also be seen by further appending values to the command. eg. ds.variable1.values
 We can see the shape of the nd array associated with a particular variable by appending the name shape. eg. ds.varaiable1.shape
-Once we know the shape of a variable, we can acess a particular value by mentioning its coordinates within its shape after the variable name. eg.print(ds.varaiable1[16][20][11][4].....)
+Once we know the shape of a variable's array, we can access a particular value by mentioning its coordinates within its shape after the variable name. eg.print(ds.varaiable1[16][20][11][4].....)
 We can also check for the extreme values of the variables. eg. np.max(ds.variable1)
-We can calculated the statistics of the variable like mean, standard deviation etc.eg. np.mean(ds.variable1)
+We can calculate the statistics of the variable like mean, standard deviation etc.  eg. np.mean(ds.variable1) etc.
+
+
+
+
+
