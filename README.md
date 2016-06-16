@@ -1,8 +1,8 @@
 # To open a netCDF on Jupyter and see its dump
-Install Jupyter notebook from www.jupyter.org
+Install Jupyter notebook from www.jupyter.org. To install it we need python installed in the system as a prerequisite. It is recommended to install "Anaconda" which includes both python and the jupyter notebook.
 We can launch the notebook by entering "Jupyter Notebook" as a shell command
-Jupyter opens in the default web browser of the OS.
-Jupyter notebook support around 40 programming languages. I have used ipython to code in it because it is a scripting language and is easy to understand  
+Jupyter opens in the default web browser of the OS. You will see the Notebook Dashboard, which will show a list of the notebooks, files, and subdirectories in the directory where the notebook server was started. Most of the time, you will wish to start a notebook server in the highest level directory containing notebooks. Often this will be your home directory.
+Jupyter notebook support around 40 programming languages. I have used ipython to code in it because it is a scripting language and is easy to understand.  
 On the top right corner of the dashboard you will have an option to launch a new notbook and the dropdown shows the list of programming languages available on the OS. I have opened a new notebook with ipython as the programming language
 At the top of this notebook you can give a heading and the notebook can have markdowns written throughout out it to expplain the script of the code
 Now beacuse a netCDF might nd arrays, working with pandas wouldn't be sufficient. So we have to install a library equivlent of pandas like "xarray" to work with netCDF files.
